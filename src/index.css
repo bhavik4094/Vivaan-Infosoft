@@ -64,8 +64,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
   padding:18px 0;
-  border-bottom:1px solid transparent;
-  transition:border-color .3s, padding .3s;
+  transition:padding .3s;
 }
 .nav::before{
   content:"";position:absolute;inset:0;z-index:-1;
@@ -74,7 +73,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   -webkit-backdrop-filter:blur(16px) saturate(140%);
   transition:background .3s;
 }
-.nav.scrolled{border-color:var(--line);padding:12px 0}
+.nav.scrolled{padding:12px 0}
 .nav.scrolled::before{background:rgba(255,255,255,0.92)}
 .nav .container{display:flex;align-items:center;justify-content:space-between;gap:24px}
 
