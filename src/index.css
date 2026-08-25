@@ -76,6 +76,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 }
 .nav.scrolled{padding:12px 0}
 .nav.scrolled::before{background:rgba(255,255,255,0.92)}
+.nav:has(.nav-links.open)::before{background:#fff}
 .nav .container{display:flex;align-items:center;justify-content:space-between;gap:24px}
 
 .logo{display:flex;align-items:center;gap:10px;font-family:var(--ff-display);font-weight:600;font-size:1.15rem}
