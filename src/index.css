@@ -392,6 +392,7 @@ li.open .dropdown,
 }
 .cta-band-inner h2{font-size:clamp(1.5rem,3vw,2.1rem);max-width:26ch}
 .cta-band-actions{display:flex;gap:14px;flex-wrap:wrap}
+.cta-band-actions .btn-ghost{border-color:var(--muted)}
 
 /* ===== Page hero (inner pages) ===== */
 .page-hero{padding:calc(clamp(60px,10vw,120px) + 70px) 0 60px;position:relative;overflow:hidden}
