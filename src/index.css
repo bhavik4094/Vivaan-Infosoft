@@ -216,7 +216,7 @@ li.open .dropdown,
 }
 .service-card::before{
   content:"";position:absolute;inset:0;border-radius:var(--radius);padding:1px;
-  background:linear-gradient(135deg,var(--gold),transparent 40%);
+  background:var(--gold);
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
   -webkit-mask-composite:xor;mask-composite:exclude;
   opacity:0;transition:opacity .35s;
