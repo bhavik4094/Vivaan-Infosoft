@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav.jsx';
 import Footer from './components/Footer.jsx';
 import BackToTop from './components/BackToTop.jsx';
+import WhatsAppButton from './components/WhatsAppButton.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import Home from './pages/Home.jsx';
 import ServicesPage from './pages/ServicesPage.jsx';
@@ -23,6 +24,7 @@ export default function App() {
       </Routes>
       <Footer />
       <BackToTop />
+      <WhatsAppButton />
     </>
   );
 }

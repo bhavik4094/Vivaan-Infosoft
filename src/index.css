@@ -430,6 +430,14 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px}
 .back-top.show{opacity:1;visibility:visible;transform:translateY(0)}
 .back-top:hover{background:var(--gold);color:#fff;border-color:var(--gold)}
 
+/* ===== WhatsApp button ===== */
+.whatsapp-btn{
+  position:fixed;bottom:82px;right:24px;width:52px;height:52px;border-radius:50%;
+  background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 20px -6px rgba(37,211,102,0.6);transition:transform .25s;z-index:90;
+}
+.whatsapp-btn:hover{transform:translateY(-3px) scale(1.05)}
+
 /* ===== Responsive ===== */
 @media (hover:none){
   .has-dropdown:hover .dropdown{opacity:0;visibility:hidden;transform:translateY(-8px)}
