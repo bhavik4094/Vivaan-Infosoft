@@ -18,12 +18,6 @@ export default function Hero() {
             <Link to="/contact" className="btn btn-primary">Book a Free Strategy Call</Link>
             <Link to="/case-studies" className="btn btn-ghost">View Case Studies</Link>
           </div>
-          <div className="hero-stats">
-            <div className="stat"><b>120+</b><span>Brands Scaled</span></div>
-            <div className="stat"><b>4.2x</b><span>Avg. Engagement Lift</span></div>
-            <div className="stat"><b>2</b><span>Live Platforms Shipped</span></div>
-            <div className="stat"><b>98%</b><span>Client Retention</span></div>
-          </div>
         </div>
 
         <div className="hero-visual reveal in">
