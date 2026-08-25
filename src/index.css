@@ -452,7 +452,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px}
   .logo{font-size:1rem;white-space:nowrap;gap:8px}
   .logo-mark{width:34px;height:34px;flex-shrink:0}
   .nav-links-cta{display:block;margin-top:10px}
-  .nav-links-cta .btn{width:100%}
+  .nav-links > li.nav-links-cta > a.btn-primary{width:100%;color:#fff;justify-content:center}
   .hero-grid{grid-template-columns:1fr}
   .hero-visual{margin-top:80px;max-width:340px}
   .services-grid{grid-template-columns:1fr 1fr}
