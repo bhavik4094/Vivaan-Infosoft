@@ -4,7 +4,6 @@ export default function ContactPage() {
   return (
     <>
       <header className="page-hero">
-        <div className="hero-orb" aria-hidden="true"></div>
         <div className="container">
           <div className="eyebrow">Get In Touch</div>
           <h1>Let's build your next <span className="grad-text">platform</span>.</h1>

@@ -29,7 +29,6 @@ export default function ServicesPage() {
   return (
     <>
       <header className="page-hero">
-        <div className="hero-orb" aria-hidden="true"></div>
         <div className="container">
           <div className="eyebrow">What We Do</div>
           <h1>Services built around <span className="grad-text">real platforms</span>, not templates.</h1>

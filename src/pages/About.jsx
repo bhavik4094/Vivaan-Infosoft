@@ -20,7 +20,6 @@ export default function About() {
   return (
     <>
       <header className="page-hero">
-        <div className="hero-orb" aria-hidden="true"></div>
         <div className="container">
           <div className="eyebrow">About Vivaan Infosoft</div>
           <h1>A digital studio built by people who <span className="grad-text">ship real products</span>.</h1>

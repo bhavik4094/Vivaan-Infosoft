@@ -35,7 +35,6 @@ export default function CaseStudiesPage() {
   return (
     <>
       <header className="page-hero">
-        <div className="hero-orb" aria-hidden="true"></div>
         <div className="container">
           <div className="eyebrow">Case Studies</div>
           <h1>Platforms we designed, built <span className="grad-text">and shipped</span>.</h1>
