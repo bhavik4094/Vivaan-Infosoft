@@ -12,7 +12,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services">
+    <section id="services" className="section-alt">
       <div className="container">
         <Reveal className="section-head">
           <div className="eyebrow">What We Do</div>

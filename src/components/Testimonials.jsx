@@ -56,7 +56,7 @@ export default function Testimonials() {
   const offset = index * (cardWidth + gap);
 
   return (
-    <section id="testimonials">
+    <section id="testimonials" className="section-alt">
       <div className="container">
         <Reveal className="section-head center">
           <div className="eyebrow">Client Testimonials</div>
