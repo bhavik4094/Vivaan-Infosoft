@@ -198,16 +198,6 @@ li.open .dropdown,
   border:1px dashed var(--line);
 }
 
-/* ticker */
-.ticker-wrap{
-  margin-top:40px;
-  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
-  background:var(--surface);overflow:hidden;padding:14px 0;
-}
-.ticker{display:flex;gap:48px;width:max-content;animation:ticker 26s linear infinite}
-.ticker span{display:inline-flex;align-items:center;gap:6px;font-family:var(--ff-mono);font-size:0.85rem;color:var(--muted);white-space:nowrap}
-.ticker span b{color:var(--text);margin-right:6px}
-@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 /* ===== Section heads ===== */
 .section-head{max-width:640px;margin-bottom:52px}

@@ -1,17 +1,7 @@
 import { Link } from 'react-router-dom';
-import { ArrowUp, ArrowDown } from 'lucide-react';
-
-const tickerItems = [
-  { label: 'GOLD 999', value: '₹1,68,541 / 10g', trend: 'up' },
-  { label: 'SILVER', value: '₹1,89,200 / kg', trend: 'up' },
-  { label: 'USD/INR', value: '83.42', trend: 'down' },
-  { label: 'PRAHLAD NAGAR', value: '₹1.25 Cr — 4 BHK' },
-  { label: 'SATELLITE', value: '₹85 L — 3 BHK' },
-  { label: 'INSTAGRAM REACH', value: '+312% avg. client lift' },
-];
+import { ArrowUp } from 'lucide-react';
 
 export default function Hero() {
-  const loop = [...tickerItems, ...tickerItems];
   return (
     <header className="hero" id="top">
       <div className="hero-orb" aria-hidden="true"></div>
@@ -50,18 +40,6 @@ export default function Hero() {
             <div className="row"><span>Reach</span><span className="up"><ArrowUp size={13} strokeWidth={2.5} /> 312%</span></div>
             <div className="val">2.4M</div>
           </div>
-        </div>
-      </div>
-
-      <div className="ticker-wrap" aria-hidden="true">
-        <div className="ticker">
-          {loop.map((item, i) => (
-            <span key={i}>
-              <b>{item.label}</b>{item.value}
-              {item.trend === 'up' && <ArrowUp size={12} strokeWidth={2.5} className="up" />}
-              {item.trend === 'down' && <ArrowDown size={12} strokeWidth={2.5} style={{ color: '#ff6b6b' }} />}
-            </span>
-          ))}
         </div>
       </div>
     </header>
