@@ -123,6 +123,7 @@ li.open .dropdown,
 .dropdown-text{display:flex;flex-direction:column;gap:2px}
 .dropdown a span.sub{font-size:0.76rem;color:var(--muted);font-weight:400}
 .nav-links a.active, .nav-top.active{color:var(--gold-bright)}
+.nav-links-cta{display:none}
 
 .nav-cta{display:flex;align-items:center;gap:10px}
 .btn{
@@ -450,7 +451,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px}
   .nav .container{gap:12px}
   .logo{font-size:1rem;white-space:nowrap;gap:8px}
   .logo-mark{width:34px;height:34px;flex-shrink:0}
-  .nav-links-cta{margin-top:10px}
+  .nav-links-cta{display:block;margin-top:10px}
   .nav-links-cta .btn{width:100%}
   .hero-grid{grid-template-columns:1fr}
   .hero-visual{margin-top:80px;max-width:340px}
