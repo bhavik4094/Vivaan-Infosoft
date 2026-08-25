@@ -64,6 +64,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
   padding:18px 0;
+  border-bottom:1px solid var(--line);
   transition:padding .3s;
 }
 .nav::before{
