@@ -77,15 +77,15 @@ export default function Contact({ hideHead = false }) {
 
           <div className="info-row">
             <div className="info-icon"><MapPin size={20} strokeWidth={1.75} /></div>
-            <div><h4>Studio Address</h4><p>Ahmedabad, Gujarat, India</p></div>
+            <div><h4>Studio Address</h4><p>A-307, Empire Business Hub, Sola, Science City Road, Ahmedabad, GJ – 380060, India</p></div>
           </div>
           <div className="info-row">
             <div className="info-icon"><Mail size={20} strokeWidth={1.75} /></div>
-            <div><h4>Email</h4><p>hello@vivaaninfosoft.com</p></div>
+            <div><h4>Email</h4><p><a href="mailto:hr.codersh@gmail.com">Vivaan Infosoft</a></p></div>
           </div>
           <div className="info-row">
             <div className="info-icon"><Phone size={20} strokeWidth={1.75} /></div>
-            <div><h4>Phone / WhatsApp</h4><p>+91 98765 43210</p></div>
+            <div><h4>Phone / WhatsApp</h4><p>+91 96461 7700</p></div>
           </div>
           <div className="info-row">
             <div className="info-icon"><Clock size={20} strokeWidth={1.75} /></div>
