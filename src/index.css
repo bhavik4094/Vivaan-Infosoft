@@ -449,6 +449,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px}
   .nav-links{position:fixed;top:70px;left:0;right:0;bottom:0;background:var(--bg);flex-direction:column;align-items:stretch;padding:20px;gap:4px;transform:translateX(100%);transition:transform .35s;overflow-y:auto}
   .nav-links.open{transform:translateX(0)}
   .nav-links > li > a,.nav-links > li > button.nav-top{width:100%;justify-content:space-between}
+  .has-dropdown{display:block}
   .dropdown{position:static;opacity:1;visibility:visible;transform:none;display:none;box-shadow:none;border:none;background:var(--surface);margin-top:4px}
   li.open .dropdown{display:block}
   .nav-toggle{display:flex;flex-shrink:0}

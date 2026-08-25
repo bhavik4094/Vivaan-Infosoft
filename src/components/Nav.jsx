@@ -56,6 +56,9 @@ export default function Nav() {
               to="/services"
               className={({ isActive }) => `nav-top ${isActive ? 'active' : ''}`}
               onClick={(e) => {
+                if (window.matchMedia('(max-width: 980px)').matches) {
+                  e.preventDefault();
+                }
                 e.stopPropagation();
                 setDropdownOpen((v) => !v);
               }}
