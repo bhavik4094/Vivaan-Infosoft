@@ -118,7 +118,9 @@ li.open .dropdown,
 .dropdown a{
   display:flex;align-items:flex-start;gap:12px;padding:10px 12px;border-radius:8px;font-size:0.88rem;color:var(--text);
   transition:background .18s;
+  border-bottom:1px solid var(--line);
 }
+.dropdown a:last-child{border-bottom:none}
 .dropdown a:hover{background:rgba(31,73,89,0.08)}
 .dropdown-icon{flex-shrink:0;margin-top:2px;color:var(--gold)}
 .dropdown-text{display:flex;flex-direction:column;gap:2px}
