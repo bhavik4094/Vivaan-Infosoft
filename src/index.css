@@ -353,9 +353,13 @@ li.open .dropdown,
 }
 
 /* ===== About page ===== */
-.about-story{max-width:760px}
+.about-story-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:50px;align-items:center}
+.about-story{max-width:560px}
 .about-story h2{font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:18px}
 .about-story p{color:var(--muted);margin-bottom:16px;font-size:1.02rem}
+.about-story-media{border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+.about-story-media img{width:100%;height:100%;object-fit:cover}
+@media (max-width:900px){.about-story-grid{grid-template-columns:1fr}.about-story-media{order:-1}}
 .team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .team-card{
   background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);

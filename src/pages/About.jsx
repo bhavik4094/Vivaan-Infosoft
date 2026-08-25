@@ -1,6 +1,7 @@
 import Reveal from '../components/Reveal.jsx';
 import CtaBand from '../components/CtaBand.jsx';
 import { Target, Users, Rocket, ShieldCheck } from 'lucide-react';
+import heroImg from '../assets/hero.png';
 
 const values = [
   { icon: Target, title: 'Outcome First', desc: 'Every deliverable is judged by what it moves — reach, leads, or revenue — not how it looks in a portfolio.' },
@@ -28,15 +29,16 @@ export default function About() {
       </header>
 
       <section>
-        <div className="container">
-          <div className="about-story">
-            <Reveal>
-              <div className="eyebrow">Our Story</div>
-              <h2>From ad campaigns to live trading platforms</h2>
-              <p>We started as a social media agency running campaigns for local brands. But we kept hitting the same wall: great marketing can't fix a broken website, and a broken booking flow kills every lead we send it. So we built the engineering side in-house.</p>
-              <p>Today that same team runs the live rate engine behind SS Bullion's trading desk and the listings portal behind SK Property — while still managing the Instagram and ad accounts for over 120 brands. One studio, one accountable team, from strategy to shipped code.</p>
-            </Reveal>
-          </div>
+        <div className="container about-story-grid">
+          <Reveal className="about-story">
+            <div className="eyebrow">Our Story</div>
+            <h2>From ad campaigns to live trading platforms</h2>
+            <p>We started as a social media agency running campaigns for local brands. But we kept hitting the same wall: great marketing can't fix a broken website, and a broken booking flow kills every lead we send it. So we built the engineering side in-house.</p>
+            <p>Today that same team runs the live rate engine behind SS Bullion's trading desk and the listings portal behind SK Property — while still managing the Instagram and ad accounts for over 120 brands. One studio, one accountable team, from strategy to shipped code.</p>
+          </Reveal>
+          <Reveal className="about-story-media">
+            <img src={heroImg} alt="Vivaan Infosoft team at work" loading="lazy" />
+          </Reveal>
         </div>
       </section>
 
