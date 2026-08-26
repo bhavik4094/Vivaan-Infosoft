@@ -81,13 +81,12 @@ export default function Nav() {
           <li><NavLink to="/about" className={navLinkClass} onClick={closeAll}>About</NavLink></li>
           <li><NavLink to="/contact" className={navLinkClass} onClick={closeAll}>Contact</NavLink></li>
           <li className="nav-links-cta">
-            <Link to="/contact" className="btn btn-primary" onClick={closeAll}>Start a Project</Link>
+            <Link to="/contact" className="btn btn-primary" onClick={closeAll}>Get a Quote</Link>
           </li>
         </ul>
 
         <div className="nav-cta">
           <Link to="/contact" className="btn btn-ghost">Get a Quote</Link>
-          <Link to="/contact" className="btn btn-primary">Start a Project</Link>
           <button
             className="nav-toggle"
             aria-label="Toggle menu"
